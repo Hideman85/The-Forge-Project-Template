@@ -1,0 +1,3 @@
+[submodule "Libs/The-Forge"]
+	path = Libs/The-Forge
+	url = https://github.com/Hideman85/The-Forge.git
