@@ -7,6 +7,10 @@ endif(COMMAND cmake_policy)
 
 project(TheForgeTemplateProject)
 
+if (NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug)
+endif()
+
 ##########################################
 ##      Configure our build system
 ##########################################
